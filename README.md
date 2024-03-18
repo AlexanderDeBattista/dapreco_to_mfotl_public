@@ -20,3 +20,6 @@ To convert GDPR articles from DAPRECO into its corresponding MFTOL formulæ and 
 ```bash
 python3 src/gdpr_to_whyenf.py
 ```
+
+## Ontologies
+This thesis contains [preliminary work](Ontology/reconstructedOntology) where we attempt to give meaning to core predicates used in our conversion. We also present [preliminary work on an OWL document](Ontology/thesis-ontologies-owl-REVISION-HEAD) that relates concepts in the ontologies presented in the thesis together.
