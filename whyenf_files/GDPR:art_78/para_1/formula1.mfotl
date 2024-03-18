@@ -1,0 +1,1 @@
+ALWAYS( ( EXISTS erl .  EXISTS y . (dapreco_RelatedTo(erl, n, fb))(fun_prOnto_SupervisoryAuthority(fb, fa))(fun_prOnto_MemberState(y, fb))) IMPLIES ( EXISTS er .  EXISTS j . ((dapreco_Request(er, n, j)) AND (dapreco_JudicialRemedy(j)) AND (dapreco_RelatedTo(j, fb)) AND (fun_prOnto_SupervisoryAuthority(fb, fa)) AND (fun_prOnto_MemberState(y, fb)))))

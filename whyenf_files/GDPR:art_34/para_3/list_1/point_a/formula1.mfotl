@@ -1,0 +1,1 @@
+ALWAYS( ( EXISTS a .  EXISTS t1 .  EXISTS ei .  EXISTS en .  EXISTS w .  EXISTS z .  EXISTS y .  EXISTS em . ((dapreco_DataBreach(eb, z)) AND (dapreco_Implement(ei, y, em)) AND (dapreco_Nullify(en, em, eb)) AND (prOnto_PersonalData(z, w)) AND (prOnto_Controller(y, z)) AND (prOnto_Measure(em)))) IMPLIES ((rioOnto_exceptionCha4Sec2Art34Par3(eb))))

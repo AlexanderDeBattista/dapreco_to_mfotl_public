@@ -1,0 +1,5 @@
+rioOnto_exceptionCha4Sec1Art27Par2Point1A9P1orA10(z:string)
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+prOnto_nominates(edp:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+prOnto_EthnicData(z:string)

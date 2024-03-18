@@ -1,0 +1,5 @@
+prOnto_nominates(edp:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+dapreco_TradeUnionMembership(z:string)
+rioOnto_Obliged(en:string, t1:string, x:string)
+rioOnto_not(en:string, ep:string)

@@ -1,0 +1,277 @@
+{
+    "dapreco":{
+        "predicate": {
+            "Identify":{
+                "args":[
+                    "Controller",
+                    "DataSubject"
+                ],
+                "Desc": "A controller obtains the identity for a data subject"
+            },
+            "AbleTo":{
+                "args":[
+                    "entity",
+                    "action"
+                ],
+                "Desc": "An entity is able to perform some action"
+            },
+            "Execute":{
+                "args":[
+                    "entity",
+                    "actionable claim"
+                ],
+                "Desc": "An entity executes some actionable claim (Such as a contract or legal claim)"
+            },
+            "RelatedTo":{
+                "args":[
+                    "thing_1",
+                    "thing_2"
+                ],
+                "Desc": "A thing_1 relates to thing_2 is some fashion form"
+            },
+            "Request":{
+                "args":[
+                    "entity",
+                    "thing"
+                ],
+                "Desc": "An entity requests a thing"
+            },
+            "LetterReasonFor":{
+                "args":[
+                    "event"
+                ],
+                "Desc": "A description of why an event took place"
+            },
+            "electronicForm":{
+                "args":[
+                    "Request|Communicate"
+                ],
+                "Desc": "A request or communication was done in electronic form"
+            },
+            "writtenForm":{
+                "args":[
+                    "Request|Communicate"
+                ],
+                "Desc": "A request or communication was done in written form"
+            },
+            "oralForm":{
+                "args":[
+                    "Request|Communicate"
+                ],
+                "Desc": "A request or communication was done in oral form"
+            },
+            "Fee":{
+                "args":[
+
+                ],
+                "Desc": "Represents a fee"
+            },
+            "reasonable":{
+                "args":[
+                    "item"
+                ],
+                "Desc": "That some item is reasonable"
+            },
+            "Refuse":{
+                "args":[
+                    "entity",
+                    "action"
+                ],
+                "Desc": "An entity refuses doing some action"
+            },
+            "Demonstrate":{
+                "args":[
+                    "entity",
+                    "action"
+                ],
+                "Desc": "An entity demonstrates some action (Such as being compliant to a legislation)"
+            },
+            "Charge":{
+                "args":[
+                    "entity_1",
+                    "entity_2",
+                    "fee"
+                ],
+                "Desc": "An entity_1 charges a fee from entity_2"
+            },
+            "Lodge":{
+                "args":[
+                    "entity_1",
+                    "Complaint",
+                    "entity_2"
+                ],
+                "Desc": "An entity_1 lodges a complaint to entity_2"
+            },
+            "Complaint":{
+                "args":[
+
+                ],
+                "Desc": "A complaint"
+            },
+            "IdentifiableFrom":{
+                "args":[
+                    "DataSubject",
+                    "PersonalData"
+                ],
+                "Desc": "A data subject is identifiable from its personal data"
+            },
+            "AttachTo":{
+                "args":[
+                    "Controller",
+                    "Icon",
+                    "Communicate"
+                ],
+                "Desc": "A controller attaches an icon to some communication"
+            },
+            "Icon":{
+                "args":[
+
+                ],
+                "Desc": "A standardized icon representing some action"
+            },
+            "machineReadabless":{
+                "args":[
+                    "Icon"
+                ],
+                "Desc": "A standardized icon that is machine readable"
+            },
+            "Store":{
+                "args":[
+                    "PersonalData",
+                    "PersonalDataRecord"
+                ],
+                "Desc": "Store some personal data in a personal data record"
+            },
+            "PersonalDataRecord":{
+                "args":[
+
+                ],
+                "Desc": "A record of personal data"
+            },
+            "PartyOf":{
+                "args":[
+                    "entity",
+                    "document"
+                ],
+                "Desc": "An entity is the party relating to some document (legal claim, contract)"
+            },
+            "Protect":{
+                "args":[
+                    "entity",
+                    "interest"
+                ],
+                "Desc": "An entity is protecting some interest"
+            }
+
+            
+        },
+        "function": {}
+    },
+    "rioOnto":{
+        "predicate": {
+            "Obliged":{
+                "args":[
+                    "action",
+                    "time",
+                    "entity"
+                ],
+                "Desc": "An entity is obliged to an event at a specific time"
+            },
+            "Permitted":{
+                "args":[
+                    "event",
+                    "time",
+                    "entity"
+                ],
+                "Desc": "An entity is permitted to an event at a specific time"
+            },
+            "and":{
+                "args":[
+                    "thing_1",
+                    "...",
+                    "thing_n"
+                ],
+                "Desc": "A conjunction of thing_1 thorugh thing_n"
+            },
+            "not":{
+                "args":[
+                    "item"
+                ],
+                "Desc": "The concept refered to in item is negated"
+            },
+            "RexistAtTime":{
+                "args":[
+                    "item",
+                    "time"
+                ],
+                "Desc": "Establishes the realness of an eventuality at a point in time"
+            }
+        },
+        "function": {}
+    },
+    "prOnto":{
+        "predicate": {
+            "lawfulness":{
+                "args":[
+                    "action"
+                ],
+                "Desc": "That an action is lawful according to the gdpr"
+            }
+            "DataSubject":{
+                "args":["item"],
+                "Desc": "An individual "
+            },
+            "IsBasedOn":{
+                "args":[
+                    "PersonalDataProcessing",
+                    "legitimateReason"
+                ],
+                "Desc": "The act of PersonalDataProcessing is based on some legitimate reason (Consent, public interest)"
+            },
+            "PersonalDataProcessing":{
+                "args":[
+                    "Processor",
+                    "PersonalData"
+                ],
+                "Desc": "Processing of personal data is done by a processor"
+            },
+            "PersonalData":{
+                "args":[
+                    "DataSubject"
+                ],
+                "Desc": "Personal data belonging to a data subject"
+            },
+            "nominates":{
+                "args":[
+                    "Controller",
+                    "Processor"
+                ],
+                "Desc": "A controller nominates a processor to process personal data that is related to the specific controller"
+            },
+            "Processor":{
+                "args":[
+                    "item"
+                ],
+                "Desc":"A processor of personal data"
+            },
+            "Controller":{
+                "args":[
+                    "item",
+                    "PersonalData"
+                ],
+                "Desc": "A controller is related to some personal data"
+            },
+            "Communicate":{
+                "args":[
+                    "entity_1",
+                    "entity_2",
+                    "information"
+                ],
+                "Desc": "An entity_1 communicates to entity_2 some information."
+            }
+
+        },
+        "function": {}
+    }
+}
+

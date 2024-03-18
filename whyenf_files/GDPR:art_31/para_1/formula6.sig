@@ -1,0 +1,8 @@
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+dapreco_Request(er:string, fb:string, eas:string)
+prOnto_nominates(edp:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+dapreco_AssistFor(eas:string, y:string, fb:string, et:string)
+fun_prOnto_SupervisoryAuthority(fb:string, fa:string)
+fun_prOnto_MemberState(y:string, fb:string)
+rioOnto_Obliged(eas:string, t2:string, y:string)

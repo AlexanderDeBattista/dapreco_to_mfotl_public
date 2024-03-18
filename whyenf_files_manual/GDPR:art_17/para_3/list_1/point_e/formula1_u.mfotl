@@ -1,0 +1,1 @@
+FORALL x . FORALL z . ALWAYS( ( EXISTS ep .  EXISTS l . (( (prOnto_PersonalDataProcessing(ep, x, z) AND ( NOT (rioOnto_exceptionCha2Art11Par2(ep)))) IMPLIES ((dapreco_LegalClaim(l)))))) IMPLIES ((rioOnto_exceptionCha3Sec3Art17Par3(z))))

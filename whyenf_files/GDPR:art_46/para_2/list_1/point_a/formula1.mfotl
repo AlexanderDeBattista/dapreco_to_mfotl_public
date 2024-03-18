@@ -1,0 +1,1 @@
+ALWAYS( ( EXISTS a1 .  EXISTS epa1 .  EXISTS epa2 .  EXISTS w .  EXISTS z .  EXISTS x .  EXISTS edp .  EXISTS et .  EXISTS k .  EXISTS pa1 .  EXISTS pa2 . ((dapreco_PartyOf(epa1, pa1, c)) AND (dapreco_PartyOf(epa2, pa2, c)) AND (lkif_Public_Body(pa1)) AND (prOnto_Contract(c)) AND (lkif_Public_Body(pa2)))) IMPLIES ( EXISTS ei1 . ((dapreco_Implement(ei1, y, c)))))

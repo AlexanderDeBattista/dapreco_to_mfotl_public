@@ -1,0 +1,8 @@
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+prOnto_isBasedOn(ep:string, epu:string)
+prOnto_nominates(edp:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+rioOnto_RexistAtTime(en2:string, t1:string)
+rioOnto_not(en2:string, eid2:string)
+dapreco_Identify(eid2:string, y:string, w:string)
+prOnto_Purpose(epu:string)

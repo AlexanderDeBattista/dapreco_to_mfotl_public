@@ -1,0 +1,1 @@
+ALWAYS( ( EXISTS a1 .  EXISTS ep1 .  EXISTS ep2 .  EXISTS w .  EXISTS z .  EXISTS x .  EXISTS edp .  EXISTS c .  EXISTS k .  EXISTS ei .  EXISTS et .  EXISTS co . ((dapreco_PartyOf(ep1, k, c)) AND (dapreco_PartyOf(ep2, EuropeanUnion, c)) AND (dapreco_PartyOf(ep2, EuropeanUnion, c)) AND (dapreco_ThirdCountry(k)))) IMPLIES ( EXISTS ei . ((dapreco_Implement(ei, y, l)))))

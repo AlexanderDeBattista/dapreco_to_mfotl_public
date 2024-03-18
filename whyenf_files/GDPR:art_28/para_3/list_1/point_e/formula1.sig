@@ -1,0 +1,8 @@
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+rioOnto_Obliged(eob:string, e:string, t1:string, y:string)
+dapreco_RelatedTo(eob:string, GDPRChapter3:string)
+dapreco_reasonable(er:string, eas:string)
+prOnto_nominates(edp:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+dapreco_AssistFor(eas:string, x:string, y:string, eob:string)
+rioOnto_RexistAtTime(eas:string, t2:string)

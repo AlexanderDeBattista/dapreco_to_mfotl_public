@@ -1,0 +1,6 @@
+lkif_Public_Body(ep1:string, x1:string)
+prOnto_nominates(edp1:string, y:string, x1:string)
+prOnto_PersonalData(z:string, w:string)
+prOnto_designates(ed1:string, x1:string, k:string)
+rioOnto_RexistAtTime(a2:string, t2:string)
+rioOnto_and(a2:string, ed1:string, ed2:string)

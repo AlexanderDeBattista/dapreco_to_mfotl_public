@@ -1,0 +1,6 @@
+dapreco_dpoOrCP(x:string, eb:string)
+dapreco_DataBreach(eb:string, z:string)
+prOnto_designates(ed:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+prOnto_Controller(y:string, z:string)
+prOnto_DPO(x:string)

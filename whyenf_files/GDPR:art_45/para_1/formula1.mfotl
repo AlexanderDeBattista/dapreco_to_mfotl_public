@@ -1,0 +1,1 @@
+ALWAYS( ( EXISTS a1 .  EXISTS ea .  EXISTS w .  EXISTS z .  EXISTS y .  EXISTS c .  EXISTS x .  EXISTS edp . ((dapreco_AuthorizedBy(ea, et, EuropeanUnion)) AND (prOnto_nominates(edp, y, x)) AND (dapreco_AuthorizedBy(ea, et, EuropeanUnion)) AND (prOnto_Transmit(et, x, z, c)) AND (dapreco_ThirdCountry(c)))) IMPLIES ())

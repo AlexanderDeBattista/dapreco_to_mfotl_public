@@ -1,0 +1,6 @@
+prOnto_nominates(edp:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+prOnto_HealthData(z:string)
+dapreco_Verify(ev:string, y:string, eco:string)
+rioOnto_RexistAtTime(ev:string, t2:string)
+dapreco_ComplyWith(eco:string, ep:string, GDPR:string)

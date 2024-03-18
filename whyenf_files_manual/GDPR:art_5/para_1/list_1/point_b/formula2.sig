@@ -1,0 +1,10 @@
+dapreco_CompatibleWith(ep:string, epu:string)+
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+prOnto_isBasedOn(ep:string, epu:string)
+prOnto_isBasedOn_3(ebo1:string, ep:string, epu:string)
+prOnto_nominates(edp:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+prOnto_Purpose(epu:string)
+prOnto_PublicInterest(epi:string)
+prOnto_Research(ers:string)
+prOnto_Statistic(est:string)

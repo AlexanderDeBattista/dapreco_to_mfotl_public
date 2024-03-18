@@ -1,0 +1,1 @@
+ALWAYS( ( EXISTS z .  EXISTS y . (rioOnto_Permitted(o2, t1, w))) IMPLIES ( EXISTS t1 .  EXISTS er . (rioOnto_Permitted(o2, t1, w))(dapreco_Request(er, w, eca))(rioOnto_cause(eca, y2, enr))(rioOnto_not(enr, ers))(prOnto_Risk(ers, w))))

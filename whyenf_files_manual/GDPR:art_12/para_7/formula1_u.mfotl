@@ -1,0 +1,1 @@
+FORALL y . FORALL en . ALWAYS( ( EXISTS ep .  EXISTS edp .  EXISTS w .  EXISTS z .  EXISTS x .  EXISTS i . ((prOnto_PersonalDataProcessing(ep, x, z)) AND (prOnto_Communicate(en, y, w, i)) AND (prOnto_nominates(edp, y, x)) AND (prOnto_PersonalData(z, w)))) IMPLIES ( EXISTS eat .  EXISTS ic . ((dapreco_AttachTo(eat, y, ic, en)) AND (dapreco_Icon(ic)) )))

@@ -1,0 +1,1 @@
+ALWAYS( ( EXISTS ep .  EXISTS w .  EXISTS z .  EXISTS x .  EXISTS epu . (prOnto_PersonalDataProcessing(ep, x, z))(prOnto_isBasedOn(ep, epu))) IMPLIES ( EXISTS t2 .  EXISTS ed .  EXISTS k .  EVENTUALLY ((prOnto_designates(ed, y, k)) AND (prOnto_DPO(k)))))

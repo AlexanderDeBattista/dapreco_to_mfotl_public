@@ -1,0 +1,1 @@
+ALWAYS( ( EXISTS a1 .  EXISTS eo1 .  EXISTS w .  EXISTS z .  EXISTS y .  EXISTS o1 .  EXISTS er1 .  EXISTS er2 .  EXISTS k . ()) IMPLIES ( EXISTS eco . ((dapreco_Contain(eco, r, fa)) AND (fun_dapreco_contactDetails(x, fa)))))

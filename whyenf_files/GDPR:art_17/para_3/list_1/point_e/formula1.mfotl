@@ -1,0 +1,1 @@
+ALWAYS( ( EXISTS a1 .  EXISTS t1 .  EXISTS ei .  EXISTS w .  EXISTS y .  EXISTS ep .  EXISTS l . (( (( NOT (rioOnto_exceptionCha2Art11Par2(ep)))) IMPLIES ((dapreco_LegalClaim(l)))))) IMPLIES ((rioOnto_exceptionCha3Sec3Art17Par3(z))))

@@ -1,0 +1,7 @@
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+dapreco_WithdrawConsent(ewd:string, b:string, ead:string)
+prOnto_nominates(edp:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+dapreco_BodyACM(b:string)
+dapreco_AdhereTo(ead:string, x:string, acm:string)
+dapreco_ApprovedCertificationMechanism(acm:string)

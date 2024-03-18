@@ -1,0 +1,7 @@
+rioOnto_exceptionCha2Art11Par2(ep:string)
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+prOnto_nominates(edp:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+dapreco_Identify(eid:string, y:string, w:string)
+rioOnto_exceptionCha2Art11Par2identifyW(ep:string)
+dapreco_AbleTo(ea:string, y:string, eid:string)

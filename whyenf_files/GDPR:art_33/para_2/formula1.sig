@@ -1,0 +1,8 @@
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+dapreco_AwareOf(ea:string, x:string, eb:string)
+prOnto_nominates(edp:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+dapreco_DataBreach(eb:string, z:string)
+prOnto_Communicate(en:string, x:string, y:string, fa:string)
+rioOnto_RexistAtTime(en:string, t2:string)
+fun_dapreco_allInfoAbout(eb:string, fa:string)

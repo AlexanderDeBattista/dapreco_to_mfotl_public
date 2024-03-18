@@ -1,0 +1,8 @@
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+prOnto_nominates(edp:string, y:string, x:string)
+dapreco_AuthorizedBy(ea1:string, ep:string, EuropeanUnion:string)
+prOnto_PersonalData(z:string, w:string)
+prOnto_Communicate(en:string, x:string, y:string, eor:string)
+rioOnto_RexistAtTime(en:string, t2:string)
+rioOnto_exceptionCha4Sec1Art28Par3Point1PublicGround(ep:string)
+fun_prOnto_MemberState(y:string, fa:string)

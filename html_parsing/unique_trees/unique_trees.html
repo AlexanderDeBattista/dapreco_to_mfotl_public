@@ -1,0 +1,171 @@
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head><body><div class='container-fluid'><div class='row'><div class='col-4'> rioOnto:obligationRule<hr class='hr' /><div>
+            Num occurences: 121</br>
+            <pre style='margin:0. display:inline'>(ALL t1)   IMPLIES <br>+---   a1  <br>+---  (EXISTS t2)  EVENTUALLY t2 TimeRelationAfter t1<br>     +---   a2  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 119</br>
+            <pre style='margin:0. display:inline'>(ALL t1)   IMPLIES <br>+---   a1  <br>+---   o1  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 4</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---   a2  <br>+---   elf2  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 4</br>
+            <pre style='margin:0. display:inline'>(ALL t1) (EXISTS t2)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    EVENTUALLY t2 TimeRelationAfter t1<br>|         +---   a2  <br>+---   a3  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 4</br>
+            <pre style='margin:0. display:inline'>(ALL t1)   IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---   et  <br>+---  (EXISTS t2)  EVENTUALLY t2 TimeRelationAfter t1<br>     +---   era  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 2</br>
+            <pre style='margin:0. display:inline'>(ALL t1)   IMPLIES <br>+---   a1  <br>+---  (EXISTS t2)  ONCE t2 TimeRelationBefore fun(swrlb:add(t1, 1M))<br>     +---   a2  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t1 . t2)   IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    HISTORICALLY t2 TimeRelationBefore fun(swrlb:add(t1, 1M))<br>|         +---   a2  <br>+---  (EXISTS t3)  AND <br>     +---    ONCE t3 TimeRelationBefore fun(swrlb:add(t1, 1M))<br>     |    +---   a3  <br>     +---    HISTORICALLY t2 TimeRelationBefore fun(swrlb:add(t1, 3M))<br>          +---   a2  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t1 . t2)   IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---   a2  <br>+---    AND <br>     +---    EVENTUALLY t2 TimeRelationAfter t1<br>     |    +---   a3  <br>     +---    ALWAYS t2 TimeRelationAfter t1<br>          +---   a2  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t1 . t2)   IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---   a2  <br>+---    AND <br>     +---    EVENTUALLY t2 TimeRelationAfter t1<br>     |    +---   a3  <br>     +---    ALWAYS t2 TimeRelationAfter t1<br>          +---   a2  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t1)   IMPLIES <br>+---   a1  <br>+---  (EXISTS t2)  EVENTUALLY [0, 1M] t2 TimeRelationBefore fun(swrlb:add(t1, 1M)) AND t2 TimeRelationAfter t1<br>     +---   en  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    ALWAYS t2 TimeRelationAfter t1<br>|         +---   en1  <br>+---  (EXISTS t3) en2  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    ALWAYS t2 TimeRelationAfter t1<br>|         +---   en1  <br>+---  (EXISTS t3) ed  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    ALWAYS t2 TimeRelationAfter t1<br>|         +---   en  <br>+---   a2  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t1) (EXISTS t2)  IMPLIES <br>+---    EVENTUALLY t2 TimeRelationAfter t1<br>|    +---   enl  <br>+---   en  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'> (EXISTS t1) a2  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    ALWAYS t2 TimeRelationAfter t1<br>|         +---   ea  <br>+---   en  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    ALWAYS t2 TimeRelationAfter t1<br>|         +---   enp  <br>+---   eca  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    ALWAYS t2 TimeRelationAfter t1<br>|         +---   enp  <br>+---   ere  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    ALWAYS t2 TimeRelationAfter t1<br>|         +---   enp  <br>+---   eca  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a  <br>|    +---    ONCE t2 TimeRelationBefore fun(swrlb:add(t1, 72h))<br>|         +---   en  <br>+---   en  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a  <br>|    +---    HISTORICALLY t2 TimeRelationBefore fun(swrlb:add(t1, 72h))<br>|         +---   en  <br>+---   en1  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t1)   IMPLIES <br>+---   a1  <br>+---  (EXISTS t2)  AND <br>     +---   en1  <br>     +---    EVENTUALLY t2 TimeRelationAfter t1<br>          +---   en2  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    ALWAYS t2 TimeRelationAfter t1<br>|         +---   enc  <br>+---   ev2  <br></pre></div></br>
+            <hr class='hr' /></div><div class='col-4'> rioOnto:constitutiveRule<hr class='hr' /><div>
+            Num occurences: 187</br>
+            <pre style='margin:0. display:inline'>(ALL t1)   IMPLIES <br>+---   a1  <br>+---   o1  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 143</br>
+            <pre style='margin:0. display:inline'>(ALL t1)   IMPLIES <br>+---   a1  <br>+---  (EXISTS t2)  EVENTUALLY t2 TimeRelationAfter t1<br>     +---   a2  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 119</br>
+            <pre style='margin:0. display:inline'> (EXISTS t1) a1  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 9</br>
+            <pre style='margin:0. display:inline'> (EXISTS t1)  AND <br>+---   a1  <br>+---   e  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 9</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---   a2  <br>+---   elf2  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 4</br>
+            <pre style='margin:0. display:inline'>(ALL t1)   IMPLIES <br>+---   a1  <br>+---  (EXISTS t2)  ONCE t2 TimeRelationBefore fun(swrlb:add(t1, 1M))<br>     +---   a2  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 4</br>
+            <pre style='margin:0. display:inline'>(ALL t1) (EXISTS t2)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    EVENTUALLY t2 TimeRelationAfter t1<br>|         +---   a2  <br>+---   a3  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 4</br>
+            <pre style='margin:0. display:inline'>(ALL t1)   IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---   et  <br>+---  (EXISTS t2)  EVENTUALLY t2 TimeRelationAfter t1<br>     +---   era  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 2</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a  <br>|    +---    HISTORICALLY t2 TimeRelationBefore fun(swrlb:add(t1, 72h))<br>|         +---   en  <br>+---   en  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'> (EXISTS t1 . t2)  AND <br>+---   a1  <br>+---    ONCE t2 TimeRelationBefore fun(swrlb:add(t1, 1M))<br>     +---   a2  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t1 . t2)   IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    HISTORICALLY t2 TimeRelationBefore fun(swrlb:add(t1, 1M))<br>|         +---   a2  <br>+---  (EXISTS t3)  AND <br>     +---    HISTORICALLY t2 TimeRelationBefore fun(swrlb:add(t1, 3M))<br>     |    +---   a2  <br>     +---    ONCE t3 TimeRelationBefore fun(swrlb:add(t1, 1M))<br>          +---   a3  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t1 . t2)   IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---   a2  <br>+---    AND <br>     +---    ALWAYS t2 TimeRelationAfter t1<br>     |    +---   a2  <br>     +---    EVENTUALLY t2 TimeRelationAfter t1<br>          +---   a3  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t1 . t2)   IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---   a2  <br>+---    AND <br>     +---    ALWAYS t2 TimeRelationAfter t1<br>     |    +---   a2  <br>     +---    EVENTUALLY t2 TimeRelationAfter t1<br>          +---   a3  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t1)   IMPLIES <br>+---   a1  <br>+---  (EXISTS t2)  EVENTUALLY [0, 1M] t2 TimeRelationBefore fun(swrlb:add(t1, 1M)) AND t2 TimeRelationAfter t1<br>     +---   en  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    ALWAYS t2 TimeRelationAfter t1<br>|         +---   en1  <br>+---  (EXISTS t3) en2  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    ALWAYS t2 TimeRelationAfter t1<br>|         +---   en1  <br>+---  (EXISTS t3) ed  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'> (EXISTS t1 . t2)  AND <br>+---   a1  <br>+---    EVENTUALLY t2 TimeRelationAfter t1<br>     +---   en  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    ALWAYS t2 TimeRelationAfter t1<br>|         +---   en  <br>+---   a2  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t1) (EXISTS t2)  IMPLIES <br>+---    EVENTUALLY t2 TimeRelationAfter t1<br>|    +---   enl  <br>+---   en  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    ALWAYS t2 TimeRelationAfter t1<br>|         +---   ea  <br>+---   en  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    ALWAYS t2 TimeRelationAfter t1<br>|         +---   enp  <br>+---   eca  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    ALWAYS t2 TimeRelationAfter t1<br>|         +---   enp  <br>+---   ere  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    ALWAYS t2 TimeRelationAfter t1<br>|         +---   enp  <br>+---   eca  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t1)   IMPLIES <br>+---   a1  <br>+---  (EXISTS t2)  AND <br>     +---    EVENTUALLY t2 TimeRelationAfter t1<br>     |    +---   en2  <br>     +---   en1  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    ALWAYS t2 TimeRelationAfter t1<br>|         +---   enc  <br>+---   ev2  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t1)   IMPLIES <br>+---   ea  <br>+---  (EXISTS t2)  EVENTUALLY [0, 4y] t2 TimeRelationAfter fun(swrlb:add(t1, 4y))<br>     +---   en  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    ALWAYS [0, 3M] t2 TimeRelationAfter fun(swrlb:add(t1, 3M))<br>|         +---   eno  <br>+---   er  <br></pre></div></br>
+            <hr class='hr' /></div><div class='col-4'> rioOnto:permissionRule<hr class='hr' /><div>
+            Num occurences: 51</br>
+            <pre style='margin:0. display:inline'>(ALL t1)   IMPLIES <br>+---   a1  <br>+---   ew  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 22</br>
+            <pre style='margin:0. display:inline'>(ALL t1)   IMPLIES <br>+---   a1  <br>+---  (EXISTS t2)  EVENTUALLY t2 TimeRelationAfter t1<br>     +---   er2  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t1)   IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---   et  <br>+---   ew  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'> (EXISTS t1) er  <br></pre></div></br>
+            <hr class='hr' /><div>
+            Num occurences: 1</br>
+            <pre style='margin:0. display:inline'>(ALL t2) (EXISTS t1)  IMPLIES <br>+---    AND <br>|    +---   a1  <br>|    +---    ALWAYS [0, 3M] t2 TimeRelationAfter fun(swrlb:add(t1, 3M))<br>|         +---   eno  <br>+---   er  <br></pre></div></br>
+            <hr class='hr' /></div></div></div></body>

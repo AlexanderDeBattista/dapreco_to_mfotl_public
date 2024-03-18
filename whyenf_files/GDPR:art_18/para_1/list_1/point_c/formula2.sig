@@ -1,0 +1,8 @@
+rioOnto_exceptionCha3Sec3Art18Par1Point3(z:string)
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+prOnto_isBasedOn(ep:string, epu:string)
+dapreco_RelatedTo(er:string, z:string, l:string)
+prOnto_nominates(edp:string, y:string, x:string)
+rioOnto_exceptionCha2Art11Par2(ep:string)
+prOnto_PersonalData(z:string, w:string)
+prOnto_Purpose(epu:string)

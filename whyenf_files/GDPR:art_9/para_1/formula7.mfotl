@@ -1,0 +1,1 @@
+ALWAYS( ( EXISTS a1 .  EXISTS edp .  EXISTS w .  EXISTS z .  EXISTS y .  EXISTS x .  EXISTS epu . ((prOnto_nominates(edp, y, x)) AND (prOnto_PersonalData(z, w)) AND (prOnto_HealthData(z)))) IMPLIES ( EXISTS en . (( NOT ) AND (rioOnto_not(en, ep)))))

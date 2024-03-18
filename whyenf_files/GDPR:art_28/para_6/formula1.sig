@@ -1,0 +1,7 @@
+prOnto_PersonalDataProcessing(ep1:string, x:string, z:string)
+dapreco_PartyOf(epa1:string, y:string, c:string)
+prOnto_nominates(edpx:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+prOnto_Contract(c:string)
+rioOnto_partOf(epo:string, scc:string, c:string)
+rioOnto_RexistAtTime(epo:string, t1:string)

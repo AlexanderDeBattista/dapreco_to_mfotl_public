@@ -1,0 +1,8 @@
+prOnto_nominates(edp:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+dapreco_Implement(ei:string, y:string, em:string)
+rioOnto_cause(eca:string, em:string, eco:string)
+prOnto_Measure(em:string)
+dapreco_ComplyWith(eco:string, ep:string, GDPR:string)
+rioOnto_Obliged(a2:string, t1:string, y:string)
+rioOnto_and(a2:string, ei:string, eca:string)

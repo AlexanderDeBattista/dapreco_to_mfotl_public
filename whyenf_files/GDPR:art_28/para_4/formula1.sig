@@ -1,0 +1,7 @@
+rioOnto_Obliged(e:string, t1:string, k:string)
+rioOnto_partOf(e:string, c:string)
+prOnto_Contract(c:string)
+prOnto_PersonalData(z:string, w:string)
+prOnto_PersonalDataProcessing(ep1:string, x:string, z:string)
+dapreco_PartyOf(epa1:string, y:string, c:string)
+prOnto_nominates(edpx:string, y:string, x:string)

@@ -1,0 +1,6 @@
+dapreco_JointDataController(y:string)
+rioOnto_partOf(y1:string, y:string)
+dapreco_Define(ed1:string, y1:string, ep:string)
+prOnto_Controller(y1:string, z:string)
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+prOnto_PersonalData(z:string, w:string)

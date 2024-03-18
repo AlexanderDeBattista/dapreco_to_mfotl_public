@@ -1,0 +1,8 @@
+prOnto_Controller(y:string, z:string)
+prOnto_isRepresentedBy(y:string, k:string)
+dapreco_Register(r:string)
+prOnto_Representative(k:string)
+prOnto_PersonalData(z:string, w:string)
+dapreco_writtenForm(ew:string, r:string)
+rioOnto_RexistAtTime(ew:string, t1:string)
+dapreco_ResponsibleFor(er1:string, y:string, r:string)

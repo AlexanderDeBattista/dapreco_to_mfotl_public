@@ -1,0 +1,1 @@
+ALWAYS( ( EXISTS ep . ) IMPLIES ((swrlb_equal(fun(dapreco_minAgeForConsent(ep)), 16))))

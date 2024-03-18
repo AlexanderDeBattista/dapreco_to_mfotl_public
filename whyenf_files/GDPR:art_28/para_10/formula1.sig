@@ -1,0 +1,7 @@
+prOnto_Controller(x:string)
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+prOnto_isBasedOn(ep:string, epu:string)
+dapreco_Define(ed1:string, x:string, epu:string)
+prOnto_nominates(edp:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+prOnto_Purpose(epu:string)

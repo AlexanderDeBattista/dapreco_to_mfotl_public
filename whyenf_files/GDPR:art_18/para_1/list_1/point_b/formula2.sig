@@ -1,0 +1,8 @@
+rioOnto_exceptionCha3Sec3Art18Par1Point2(z:string)
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+dapreco_Request(er:string, y:string, eli:string)
+prOnto_nominates(edp:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+dapreco_Limit(eli:string, w:string, z:string)
+rioOnto_exceptionCha2Art11Par2(ep:string)
+prOnto_lawfulness(el:string, ep:string)

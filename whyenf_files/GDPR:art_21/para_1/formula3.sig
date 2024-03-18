@@ -1,0 +1,8 @@
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+prOnto_nominates(edp:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+dapreco_WithdrawConsent(ew:string, w:string, ep:string)
+rioOnto_RexistAtTime(ew:string, t1:string)
+rioOnto_exceptionCha3Sec4Art21Par1NW(ep:string)
+rioOnto_exceptionCha3Sec1Art12Par2(ep:string)
+InfSecOnto_dummy(BadFormula:string)

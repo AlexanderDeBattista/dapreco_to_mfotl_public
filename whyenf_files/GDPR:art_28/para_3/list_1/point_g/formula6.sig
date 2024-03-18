@@ -1,0 +1,8 @@
+rioOnto_Obliged(eca:string, t2:string, y:string)
+prOnto_PersonalData(z:string, w:string)
+dapreco_Request(er1:string, EuropeanUnion:string, eca:string)
+prOnto_Delete(eca:string, x:string, fa:string)
+fun_dapreco_copyOf(z:string, fa:string)
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+prOnto_nominates(edp:string, y:string, x:string)
+fun_prOnto_MemberState(y:string, fb:string)

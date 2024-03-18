@@ -1,0 +1,7 @@
+rioOnto_exceptionCha2Art9Par2(ep:string)
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+dapreco_Protect(epr:string, em:string, w:string)
+prOnto_nominates(edp:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+prOnto_Measure(em:string)
+prOnto_PublicInterest(pi:string)

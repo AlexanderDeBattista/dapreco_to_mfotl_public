@@ -1,0 +1,6 @@
+dapreco_Implement(ei:string, k:string, em:string)
+rioOnto_cause(eca:string, em:string, enr:string)
+prOnto_Measure(em:string)
+prOnto_Risk(ers:string, w:string)
+prOnto_DataSubject(w:string)
+rioOnto_RexistAtTime(ei1:string, t1:string)

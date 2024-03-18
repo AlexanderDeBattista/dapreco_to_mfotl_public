@@ -1,0 +1,8 @@
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+dapreco_largeScale(ep:string)
+lkif_Public_Body(x:string)
+prOnto_PersonalData(z:string, w:string)
+rioOnto_Obliged(ed:string, t2:string, y:string)
+prOnto_designates(ed:string, y:string, k:string)
+prOnto_DPO(k:string)
+dapreco_Monitor(esm:string, a:string, w:string)

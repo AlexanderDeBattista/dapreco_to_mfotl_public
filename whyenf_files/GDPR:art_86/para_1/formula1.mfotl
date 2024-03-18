@@ -1,0 +1,1 @@
+ALWAYS( ( EXISTS a1 .  EXISTS eh .  EXISTS ert .  EXISTS pi .  EXISTS w .  EXISTS d .  EXISTS ep .  EXISTS k .  EXISTS epu . ((dapreco_Hold(eh, p, d)) AND (prOnto_Document(d)))) IMPLIES ( EXISTS t2 .  EXISTS ed .  EVENTUALLY ((prOnto_Provide(ed, p, z)))))

@@ -1,0 +1,8 @@
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+prOnto_isBasedOn(ep:string, epu:string)
+prOnto_nominates(edp:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+prOnto_Marketing(epu:string)
+dapreco_WithdrawConsent(ew:string, w:string, ep:string)
+rioOnto_Permitted(ew:string, t1:string, w:string)
+rioOnto_exceptionCha3Sec1Art12Par2(ep:string)

@@ -1,0 +1,1 @@
+ALWAYS( ( EXISTS a1 .  EXISTS edp .  EXISTS w .  EXISTS z .  EXISTS x . ((prOnto_nominates(edp, y, x)) AND (prOnto_PersonalData(z, w)) AND (prOnto_GeneticData(z)))) IMPLIES ( EXISTS t2 .  EXISTS ev .  EXISTS eco .  EVENTUALLY ((dapreco_Verify(ev, y, eco)) AND (dapreco_ComplyWith(eco, ep, GDPR)))))

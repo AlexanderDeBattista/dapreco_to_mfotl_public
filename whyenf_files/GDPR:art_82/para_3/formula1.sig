@@ -1,0 +1,8 @@
+rioOnto_exceptionCha8Art82Par3(y:string)
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+dapreco_ViolationOf(evf:string, GDPR:string)
+rioOnto_cause(evf:string, ed:string)
+prOnto_nominates(edp:string, y:string, x:string)
+dapreco_HasBeenDamaged(ed:string, w:string)
+prOnto_PersonalData(z:string, w:string)
+dapreco_RelatedTo(ert:string, y:string, e:string)

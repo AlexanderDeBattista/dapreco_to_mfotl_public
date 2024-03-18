@@ -1,0 +1,8 @@
+rioOnto_Obliged(e:string, t1:string, k:string)
+prOnto_DPO(k:string)
+prOnto_PersonalData(z:string, w:string)
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+prOnto_designates(ed:string, y:string, k:string)
+prOnto_nominates(edp:string, y:string, x:string)
+dapreco_confidentialWrt(ecw:string, k:string, e:string)
+rioOnto_RexistAtTime(ecw:string, t1:string)

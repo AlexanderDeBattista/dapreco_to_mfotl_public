@@ -1,0 +1,1 @@
+ALWAYS( ( EXISTS a .  EXISTS a1 .  EXISTS el .  EXISTS w .  EXISTS z .  EXISTS eca .  EXISTS er .  EXISTS erf .  EXISTS p . ) IMPLIES ( EXISTS t2 .  EXISTS en .  EVENTUALLY [0, NonDelayed] ((rioOnto_Obliged(en, t2, y)) AND (prOnto_Communicate(en, y, fb, fc)) AND (fun_prOnto_SupervisoryAuthority(fb, fa)) AND (fun_prOnto_MemberState(y, fb)) AND (fun_dapreco_allInfoAbout(eb, fc)))))

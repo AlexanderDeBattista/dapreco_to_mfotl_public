@@ -1,0 +1,1 @@
+ALWAYS( ( EXISTS a1 .  EXISTS edp .  EXISTS w .  EXISTS z .  EXISTS y .  EXISTS x . ((prOnto_nominates(edp, y, x)) AND (prOnto_PersonalData(z, w)) AND (dapreco_TradeUnionMembership(z)))) IMPLIES ( EXISTS en . (( NOT ) AND (rioOnto_not(en, ep)))))

@@ -1,0 +1,6 @@
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+prOnto_nominates(edp:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+rioOnto_Permitted(ed:string, t2:string, y:string)
+prOnto_designates(ed:string, y:string, k:string)
+prOnto_DPO(k:string)

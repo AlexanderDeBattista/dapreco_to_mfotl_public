@@ -1,0 +1,6 @@
+dapreco_ContactPointFor(k:string, fun(prOnto_SupervisoryAuthority(fun(prOnto_MemberState(y)))):string)
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+prOnto_designates(ed:string, y:string, k:string)
+prOnto_nominates(edp:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+prOnto_DPO(k:string)

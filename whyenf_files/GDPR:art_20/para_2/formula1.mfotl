@@ -1,0 +1,1 @@
+ALWAYS( ( EXISTS a1 .  EXISTS er .  EXISTS edp .  EXISTS w .  EXISTS z .  EXISTS k .  EXISTS y .  EXISTS x .  EXISTS ep . ((prOnto_Transmit(etr, x, z, k)) AND (dapreco_Request(er, w, etr)) AND (prOnto_nominates(edp, y, x)))) IMPLIES ( EXISTS t2 .  EVENTUALLY ()))

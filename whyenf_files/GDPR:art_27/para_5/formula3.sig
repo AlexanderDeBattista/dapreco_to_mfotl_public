@@ -1,0 +1,7 @@
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+prOnto_nominates(edp:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+dapreco_LegalClaim(lc:string)
+rioOnto_Obliged(enr:string, t1:string, y:string)
+rioOnto_not(enr:string, err:string)
+dapreco_RelatedTo(ery:string, lc:string, y:string)

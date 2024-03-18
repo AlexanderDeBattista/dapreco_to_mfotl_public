@@ -1,0 +1,8 @@
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+prOnto_nominates(edp:string, y:string, x:string)
+prOnto_PersonalData(z:string, w:string)
+dapreco_AdhereTo(ead:string, y:string, cc:string)
+rioOnto_RexistAtTime(ead:string, t2:string)
+prOnto_codeOfConduct(cc:string)
+dapreco_OfferGoodsOrServices(eof:string, y:string)
+dapreco_Monitor(emo:string, y:string, w:string)

@@ -1,0 +1,6 @@
+rioOnto_exceptionCha4Sec1Art28Par3Point1AuthByEU(ep:string)
+prOnto_PersonalDataProcessing(ep:string, x:string, z:string)
+prOnto_nominates(edp:string, y:string, x:string)
+dapreco_AuthorizedBy(ea1:string, ep:string, EuropeanUnion:string)
+prOnto_PersonalData(z:string, w:string)
+fun_prOnto_MemberState(y:string, fa:string)

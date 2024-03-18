@@ -1,0 +1,1 @@
+FORALL z . FORALL fa . ALWAYS( ( EXISTS eca .  EXISTS w . EXISTS era .  EXISTS ev . ((rioOnto_cause(eca, era, ev)) AND (prOnto_Delete(era, w, z)) AND (dapreco_ViolationOf(ev, fa)) AND (prOnto_PersonalData(z, w)) AND (fun_dapreco_freedomOfExprAndInfo(w, fa)))) IMPLIES ((rioOnto_exceptionCha3Sec3Art17Par3(z))))

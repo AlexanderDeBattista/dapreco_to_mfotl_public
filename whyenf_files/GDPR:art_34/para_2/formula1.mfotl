@@ -1,0 +1,1 @@
+ALWAYS( ( EXISTS a .  EXISTS w .  EXISTS z .  EXISTS y . ((dapreco_DataBreach(eb, z)) AND (prOnto_Communicate(en, y, w, fa)) AND (prOnto_PersonalData(z, w)) AND (prOnto_Controller(y, z)) AND (fun_dapreco_allInfoAbout(eb, fa)))) IMPLIES ( EXISTS ec .  EXISTS x . ((dapreco_Contain(ec, en, fb)) AND (fun_dapreco_contactDetails(x, fb)) AND (dapreco_dpoOrCP(x, eb)))))

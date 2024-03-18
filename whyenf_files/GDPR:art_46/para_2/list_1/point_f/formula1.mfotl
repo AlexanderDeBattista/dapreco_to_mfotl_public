@@ -1,0 +1,1 @@
+ALWAYS( ( EXISTS a1 .  EXISTS ei .  EXISTS eca .  EXISTS w .  EXISTS z .  EXISTS y1 .  EXISTS x .  EXISTS edp .  EXISTS et .  EXISTS em .  EXISTS erf . ((dapreco_Implement(ei, k, em)) AND (rioOnto_cause(eca, em, enr)) AND (prOnto_Measure(em)) AND (prOnto_Risk(ers, w)) AND (prOnto_DataSubject(w)))) IMPLIES ( EXISTS ei1 . ((dapreco_Implement(ei1, y2, c)))))

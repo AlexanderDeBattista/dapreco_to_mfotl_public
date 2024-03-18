@@ -1,0 +1,1 @@
+ALWAYS( ( EXISTS a1 .  EXISTS epa1 .  EXISTS epa2 .  EXISTS w .  EXISTS z .  EXISTS x .  EXISTS edp .  EXISTS et .  EXISTS k . ()) IMPLIES ( EXISTS ei1 . ((dapreco_Implement(ei1, y, c)))))

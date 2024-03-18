@@ -1,0 +1,1 @@
+ALWAYS( EXISTS t2 .  ( EXISTS a1 .  EXISTS eli .  EXISTS edp .  EXISTS z .  EXISTS x .  EXISTS ep .  EXISTS t2 .  EVENTUALLY (( NOT (dapreco_Limit(eli, w, z))) AND (prOnto_PersonalData(z, w)))) IMPLIES ( EXISTS en . ((prOnto_Communicate(en, y, w, enl)) AND (dapreco_Limit(eli, w, z)) AND (prOnto_PersonalData(z, w)))))

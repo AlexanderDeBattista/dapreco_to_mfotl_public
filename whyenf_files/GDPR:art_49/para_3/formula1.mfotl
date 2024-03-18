@@ -1,0 +1,1 @@
+ALWAYS( ( EXISTS a1 .  EXISTS t1 .  EXISTS ert .  EXISTS w .  EXISTS z .  EXISTS y .  EXISTS x .  EXISTS edp .  EXISTS c .  EXISTS p . ((prOnto_Transmit(et, x, z, c)) AND (dapreco_RelatedTo(ert, et, p)) AND (lkif_Public_Body(p)))) IMPLIES ((rioOnto_exceptionCha5Art49Par3(et))))
